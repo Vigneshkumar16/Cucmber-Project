@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="82.746677">
+    <testcase classname="As a User, I want to Order the Oil" name="The user downloads the Brochure" time="21.401268">
+        <system-out><![CDATA[When To lanch the URL of the application....................................passed
+And click the “About Us” button.............................................passed
+And scroll down and see the Download Brochure (English).....................passed
+Then check the Brochure is downloaded.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a User, I want to Order the Oil" name="The user purchases the “Harmony”" time="37.704067">
+        <system-out><![CDATA[When click the “Products” button............................................passed
+And mouse hover the “Products” button again hovers the “Aroma Oil”..........passed
+And select the “Sweet”......................................................passed
+And Users can see the “Harmony” and choose the oil..........................passed
+And select the volume ml and add quality....................................passed
+And Then click “Add To Cart”................................................passed
+Then click the “Process To Checkout”........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a User, I want to Order the Oil" name="The user checks the missing product" time="23.641342">
+        <system-out><![CDATA[When click the “Products” button............................................passed
+Then mouse hover the “Products” button and clicks the Car Diffusers.........passed
+]]></system-out>
+    </testcase>
+</testsuite>
